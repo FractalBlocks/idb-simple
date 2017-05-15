@@ -1,7 +1,7 @@
 {
   "name": "idb-simple",
   "version": "0.0.1",
-  "description": "Implement a simple key-value storage for indexedDB on top and add some helper methods such as for storing images",
+  "description": "Implement a simple key-value storage for indexedDB and add some helper methods such as for storing images",
   "main": "index.js",
   "scripts": {
     "start": "browserify index.js -o dist/index.js",
