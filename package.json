@@ -4,7 +4,9 @@
   "description": "Implement a simple key-value storage for indexedDB on top and add some helper methods such as for storing images",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browserify index.js -o dist/index.js",
+    "compile": "watchify index.js -o dist/index.js",
+    "start-example": "watchify example/index.js -o example/dist.js"
   },
   "keywords": [
     "indexedDB",
@@ -16,5 +18,9 @@
   "license": "MIT",
   "dependencies": {
     "idb": "^2.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "watchify": "^3.9.0"
   }
 }
