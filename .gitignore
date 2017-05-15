@@ -1,5 +1,6 @@
 # Project specific stuff
 dist/
+example/dist.js
 
 # npm stuff
 node_modules/
